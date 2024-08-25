@@ -1,0 +1,20 @@
+package com.mawen.learn.hystrix;
+
+/**
+ * @author <a href="1181963012mw@gmail.com">mawen12</a>
+ * @since 2024/8/21
+ */
+public enum HystrixEventType {
+	SUCCESS,
+	FAILURE,
+	TIMEOUT,
+	SHORT_CIRCUITED,
+	THREAD_POOL_REJECTED,
+	SEMAPHORE_REJECTED,
+	FALLBACK_SUCCESS,
+	FALLBACK_FAILURE,
+	FALLBACK_REJECTED,
+	EXCEPTION_THROWN,
+	RESPONSE_FROM_CACHE,
+	COLLAPSED
+}
